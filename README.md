@@ -21,9 +21,19 @@ class Sha:
         print("Why don't programmers like nature?")
         print("Because it has too many bugs!")
 
+    def keep_alive(self):
+        while True:
+            print("Wake up...")
+            print("Eat...")
+            print("Selfcare...")
+            print("Code...")
+            print("Sleep...")
+            print("Still alive... :")
+
 me = Sha()
 me.display_info()
 me.tell_joke()
+me.keep_alive()
 ```
 
 
