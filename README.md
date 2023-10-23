@@ -1,4 +1,32 @@
-### Hi there 👋
+```py
+class Sha:
+    def __init__(self):
+        self.name = "Sha. J. Leeuwen"
+        self.background = "Proud German"
+        self.traits = ["Confident", "Kind", "Encouraged", "Empathic"]
+
+        self.skills = ["Python", "C++", "Roblox Development"]
+        self.interests = ["Game Engineering", "Cybersecurity", "Software Development"]
+        self.currentlyLearning = "Ethical Hacking & Cybersecurity Fundementals"
+
+    def display_info(self):
+        print(f"Name: {self.name}")
+        print(f"Background: {self.background}")
+        print(f"Traits: {', '.join(self.traits)}")
+        print(f"Skills: {', '.join(self.skills)}")
+        print(f"Interests: {', '.join(self.interests)}")
+        print(f"Currently Learning: {self.currentlyLearning}")
+
+    def tell_joke(self):
+        print("Why don't programmers like nature?")
+        print("Because it has too many bugs!")
+
+me = Sha()
+me.display_info()
+me.tell_joke()
+```
+
+
 
 <!--
 **s-jhn/s-jhn** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
