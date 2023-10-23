@@ -28,7 +28,7 @@ class Sha:
             print("Selfcare...")
             print("Code...")
             print("Sleep...")
-            print("Still alive... :")
+            print("Still alive... :)")
 
 me = Sha()
 me.display_info()
